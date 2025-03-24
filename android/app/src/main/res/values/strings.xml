@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="title_activity_main">BMICalculator</string>
+    <string name="package_name">com.example.bmicalculator</string>
+    <string name="custom_url_scheme">com.example.bmicalculator</string>
+</resources>

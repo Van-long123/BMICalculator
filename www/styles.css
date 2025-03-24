@@ -1,0 +1,148 @@
+/* Thiết lập chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #185a9d;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+}
+
+input:focus {
+    border-color: #43cea2;
+    box-shadow: 0 0 8px rgba(67, 206, 162, 0.5);
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+button {
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-weight: 500;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#cameraBtn {
+    background: linear-gradient(to right, #FF8C00, #FF5722);
+}
+
+#shareBtn {
+    background: linear-gradient(to right, #4A90E2, #5D3BE7);
+    margin-top: 15px;
+}
+
+#result {
+    margin: 20px 0;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    font-weight: 500;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#photo {
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Hiệu ứng rung khi có lỗi */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.error {
+    border-color: #ff3860 !important;
+    animation: shake 0.5s;
+}
+
+/* Kết quả BMI với màu sắc khác nhau */
+.bmi-underweight {
+    color: #3498db;
+}
+
+.bmi-normal {
+    color: #2ecc71;
+}
+
+.bmi-overweight {
+    color: #f39c12;
+}
+
+.bmi-obese {
+    color: #e74c3c;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    input, button {
+        padding: 12px;
+    }
+}

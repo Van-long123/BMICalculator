@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính BMI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tính BMI</h1>
+        <input type="number" id="height" placeholder="Chiều cao (cm)">
+        <input type="number" id="weight" placeholder="Cân nặng (kg)">
+        <button id="calculateBtn">Tính BMI</button>
+        <p id="result"></p>
+        <button id="shareBtn" style="display: none;">Chia sẻ kết quả</button>
+        <button id="cameraBtn" style="margin-top: 10px;">Chụp ảnh</button>
+        <img id="photo" style="display: none; max-width: 100%; margin-top: 10px;">
+    </div>
+    <!-- Tải Capacitor core và các plugin từ CDN -->
+    <script src="https://unpkg.com/@capacitor/core@latest/dist/capacitor.js"></script>
+    <script src="https://unpkg.com/@capacitor/local-notifications@latest/dist/capacitor-local-notifications.js"></script>
+    <script src="https://unpkg.com/@capacitor/share@latest/dist/capacitor-share.js"></script>
+    <script src="https://unpkg.com/@capacitor/camera@latest/dist/capacitor-camera.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
