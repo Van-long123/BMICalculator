@@ -9,7 +9,7 @@ BMI Calculator là một ứng dụng tính chỉ số BMI (Body Mass Index) s�
 
 ## Yêu cầu
 
-- **Node.js**: Để chạy trên Web
+- **Node.js**: V16 hoặc cao hơn
 - **Android Studio**: Để chạy trên Android (hoặc Xcode cho iOS)
 - **Thiết bị thật hoặc giả lập Android/iOS**
 
