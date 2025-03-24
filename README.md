@@ -54,3 +54,12 @@ Sau đó, trong Android Studio, chọn thiết bị (giả lập hoặc thiết 
 1. Nhập **chiều cao (cm)** và **cân nặng (kg)**.
 2. Nhấn **"Tính BMI"** để xem kết quả.
 3. Sử dụng **"Chia sẻ kết quả"** hoặc **"Chụp ảnh"** (nếu muốn).
+
+## Ảnh ứng dụng
+![image](https://github.com/user-attachments/assets/3624bbd1-e824-4c11-8997-70fef76f5a27)
+![image](https://github.com/user-attachments/assets/6bbedda4-d953-406d-bc38-f932efec1ae9)
+![image](https://github.com/user-attachments/assets/8c8fb14e-b383-4fd6-90fb-b6e4d8ec0107)
+
+
+
+
